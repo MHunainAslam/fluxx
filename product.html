@@ -38,25 +38,26 @@
             </button>
 
             <div class="collapse navbar-collapse mob-nav" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto my-4 mb-lg-0 main-nav nav-line">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="./index.html">HOME</a>
+                <ul class="pt-4 nav navbar-nav mx-auto  mb-lg-0 main-nav nav-line z-3">
+                    <li class="nav-item active">
+                        <a class="nav-link  " aria-current="page" href="./index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./product.html">PRODUCT</a>
+                        <a class="nav-link " aria-current="page" href="./product.html">PRODUCT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="ourstory.html">OUR STORY</a>
+                        <a class="nav-link  " aria-current="page" href="./ourstory.html">OUR STORY</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="#">CONTACT</a>
                     </li>
                 </ul>
-                <div class="col-12 d-sm-flex justify-content-between">
+                <div class="col-12 d-md-flex justify-content-between">
                     <a class="navbar-brand m-0 col-md-2 d-md-block d-none" href="./index.html">
                         <img src="./assets/images/logo.png" alt="">
                     </a>
-                    <div class="search-and-icons col-md-7 col-sm-6 justify-content-sm-center justify-content-between">
+                    <div class="search-and-icons col-md-7  justify-content-sm-center justify-content-between ">
                         <div class="col-md-3 col-6">
                             <select class="form-select " aria-label="Default select example">
                                 <option selected>Category</option>
@@ -74,7 +75,7 @@
                             <div class="cart"><i class="bi bi-cart3"></i></div>
                         </div> -->
                     </div>
-                    <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-between mt-sm-0 mt-4 ">
+                    <div class="col-md-3 d-flex align-items-center justify-content-between mt-sm-0 mt-4 py-md-0 py-5">
 
 
                         <div class="helpline d-flex">
@@ -105,7 +106,7 @@
         </div>
     </nav>
     <section>
-        <div class="container product-card">
+        <div class="container-fluid px-5 product-card">
 
 
             <div class="text-end text-white mt-5">
@@ -118,9 +119,9 @@
 
 
             <div class="row ">
-                <div class="col-md-3 col-sm-4 ">
+                <div class="col-xl-2 col-md-3 d-md-block d-none ">
                     <div class="category">
-                        <h1 class="heading text-start ">CATEGORIES
+                        <h1 class="heading text-start">CATEGORIES
                         </h1>
                         <a class="nav-link active mt-4" aria-current="page" href="">MANUFACTURERS</a>
                         <a class="nav-link active mt-4" aria-current="page" href="">BMW
@@ -146,9 +147,9 @@
                     </div>
                     <h1 class="heading text-start mt-4 ">PRICE
                     </h1>
-                    <div class="d-flex py-md-2 currency">
+                    <div class="d-flex justify-content-between py-md-2 currency">
 
-                        <select name="currency" id="firstcurrency">
+                        <select class="col-5" name="currency" id="firstcurrency">
                             <option value="">AED</option>
                             <option value="dog">Dog</option>
                             <option value="cat">Cat</option>
@@ -158,7 +159,7 @@
                             <option value="goldfish">Goldfish</option>
                         </select>
                         <div class="text-white px-2">to</div>
-                        <select name="currency" id="firstcurrency">
+                        <select class="col-5" name="currency" id="firstcurrency">
                             <option value="">AED</option>
                             <option value="dog">Dog</option>
                             <option value="cat">Cat</option>
@@ -169,25 +170,27 @@
                         </select>
                     </div>
 
+                    <div class="brands">
+                        <h1 class="heading text-start mt-4 ">BRAND
+                        </h1>
 
-                    <h1 class="heading text-start mt-4 ">BRAND
-                    </h1>
-                    <a href="" class="text-decoration-none text-white mt-3 d-block">Eibach</a>
-                    <a href="" class="text-decoration-none text-white mt-3 d-block">Forge
-                    </a>
-                    <a href="" class="text-decoration-none text-white mt-3 d-block">K&N</a>
-                    <a href="" class="text-decoration-none text-white mt-3 d-block">KW
-                    </a>
-                    <a href="" class="text-decoration-none text-white mt-3 d-block">Racingline</a>
-                    <a href="" class="text-decoration-none text-white mt-3 d-block">Eibach</a>
-                    <img src="assets/images/product-list.jpg" class="w-75 mt-3" alt="">
+                        <a href="" class="text-decoration-none text-white mt-3 d-block">Eibach</a>
+                        <a href="" class="text-decoration-none text-white mt-3 d-block">Forge
+                        </a>
+                        <a href="" class="text-decoration-none text-white mt-3 d-block">K&N</a>
+                        <a href="" class="text-decoration-none text-white mt-3 d-block">KW
+                        </a>
+                        <a href="" class="text-decoration-none text-white mt-3 d-block">Racingline</a>
+                        <a href="" class="text-decoration-none text-white mt-3 d-block">Eibach</a>
+                        <img src="assets/images/product-list.jpg" class="w-75 mt-3" alt="">
+                    </div>
                 </div>
-                <div class="col-md-9  col-sm-8 ">
+                <div class="col-xl-10 col-md-9  col-sm-12 ">
                     <div class="product-price">
-                        <p class="icon-text text-white mt-3">Products>Cars>Toyota>Price><br>
+                        <p class="icon-text text-white ">Products>Cars>Toyota>Price><br>
                             Forge
                         </p>
-                        <p class=" text-white icon-text mt-3 ">Sort by:low to high</p>
+                        <p class=" text-white icon-text ">Sort by:low to high</p>
                     </div>
                     <div class="row bg-black">
                         <div class="tabs-card col-md-4 col-6 bg-black">
