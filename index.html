@@ -87,8 +87,8 @@
                     <a class="navbar-brand m-0 col-md-2 d-md-block d-none" href="./index.html">
                         <img src="./assets/images/logo.png" alt="">
                     </a>
-                    <div class="search-and-icons col-md-7  justify-content-sm-center justify-content-between ">
-                        <div class="col-md-3 col-6">
+                    <div class="search-and-icons col-md-6  justify-content-sm-center justify-content-between ">
+                        <div class="col-md-3 col-6 ">
                             <select class="form-select " aria-label="Default select example">
                                 <option selected>Category</option>
                                 <option value="1">One</option>
@@ -96,8 +96,8 @@
                                 <option value="3">Three</option>
                             </select>
                         </div>
-                        <form class=" header-form col-md-7 col-6 ps-3" role="search">
-                            <input class="form-control " type="search" aria-label="Search">
+                        <form class=" header-form col-md-7 col-6 ps-3 " role="search">
+                            <input class="form-control header-searcha" type="search" aria-label="Search">
                         </form>
                         <!-- <div class="user-icons d-flex mb-2">
                             <div class="profile"><i class="bi bi-person"></i></div>
@@ -105,8 +105,12 @@
                             <div class="cart"><i class="bi bi-cart3"></i></div>
                         </div> -->
                     </div>
-                    <div class="col-md-3 d-flex align-items-center justify-content-between mt-sm-0 mt-4 py-md-0 py-5">
-
+                    <div class="col-md-4 d-flex align-items-center justify-content-between mt-sm-0 mt-4 py-md-0 py-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                            class="bi bi-search searchopen" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
 
                         <div class="helpline d-flex">
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
@@ -190,7 +194,7 @@
                 style and innovation to your car, making it stand out from the rest. From sleek carbon fiber spoilers to
                 custom exhaust systems that will make your car roar, we've got everything you need to make a statement
                 on
-                the road. And with our network of partnered garag font-family: 'Anton', sans-serif;
+                the road. And with our network of partnered garag
                 <br><br>
 
                 es, we'll make sure your ride is installed and customized to perfection. Don't settle for a boring car –
@@ -537,7 +541,7 @@
 
         </div>
     </section>
-    <section class="my-5">
+    <section class="my-5 d-none">
         <div class="container ">
             <h3 class="heading  text-center ">GALLERY</h3>
             <div class="yellowunderline mx-auto">
@@ -675,7 +679,7 @@
     $('.fadeslider').slick({
         autoplay: true,
         autoplaySpeed: 2000,
-        
+
         // prevArrow: false,
         // nextArrow: false,
         responsive: [
@@ -705,13 +709,15 @@
     });
     $('.autoplay').slick({
         autoplay: false,
-        dots: true,
+        dots: false,
         autoplaySpeed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1
 
     });
+
 </script>
+<script src="./assets/js/script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 

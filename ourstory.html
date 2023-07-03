@@ -39,13 +39,13 @@
 
             <div class="collapse navbar-collapse mob-nav" id="navbarSupportedContent">
                 <ul class="pt-4 nav navbar-nav mx-auto  mb-lg-0 main-nav nav-line z-3">
-                    <li class="nav-item ">
+                    <li class="nav-item active">
                         <a class="nav-link  " aria-current="page" href="./index.html">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="./product.html">PRODUCT</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link  " aria-current="page" href="./ourstory.html">OUR STORY</a>
                     </li>
 
@@ -57,8 +57,8 @@
                     <a class="navbar-brand m-0 col-md-2 d-md-block d-none" href="./index.html">
                         <img src="./assets/images/logo.png" alt="">
                     </a>
-                    <div class="search-and-icons col-md-7  justify-content-sm-center justify-content-between ">
-                        <div class="col-md-3 col-6">
+                    <div class="search-and-icons col-md-6  justify-content-sm-center justify-content-between ">
+                        <div class="col-md-3 col-6 ">
                             <select class="form-select " aria-label="Default select example">
                                 <option selected>Category</option>
                                 <option value="1">One</option>
@@ -66,8 +66,8 @@
                                 <option value="3">Three</option>
                             </select>
                         </div>
-                        <form class=" header-form col-md-7 col-6 ps-3" role="search">
-                            <input class="form-control " type="search" aria-label="Search">
+                        <form class=" header-form col-md-7 col-6 ps-3 " role="search">
+                            <input class="form-control header-searcha" type="search" aria-label="Search">
                         </form>
                         <!-- <div class="user-icons d-flex mb-2">
                             <div class="profile"><i class="bi bi-person"></i></div>
@@ -75,8 +75,12 @@
                             <div class="cart"><i class="bi bi-cart3"></i></div>
                         </div> -->
                     </div>
-                    <div class="col-md-3 d-flex align-items-center justify-content-between mt-sm-0 mt-4 py-md-0 py-5">
-
+                    <div class="col-md-4 d-flex align-items-center justify-content-between mt-sm-0 mt-4 py-md-0 py-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                            class="bi bi-search searchopen" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
 
                         <div class="helpline d-flex">
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
@@ -107,7 +111,7 @@
     </nav>
 
     <section>
-        <div class="col-12 video">
+        <div class="col-12 video d-none">
 
             <video poster="" controls>
                 <source src="./assets/newimg/20230521_192607.mp4">
@@ -119,12 +123,7 @@
             <h3 class="heading  text-center ">OUR STORY</h3>
 
             <p class="para text-center text-white my-4 fw-bold">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Even though we are all very different from each other, the one thing that we have in common is an interest in cars and tuning. This is something that we have been passionate about since we were kids and so we decided to work towards supporting the car community, something we ourselves are a part of. We came up with the idea of starting this website because all of us ran into sourcing parts at the right price for our own cars. A platform like Fluxx Tuning would have helped us a lot in that process, just like we hope to help everyone interested in modifying their cars nowm
 
             </p>
             <div class="text-center ">
@@ -138,7 +137,7 @@
                 <div class="col-sm-7 my-auto">
                     <h3 class="heading  text-start ">Yash Raj</h3>
                     <h5 class="small-heading  text-start "> FOUNDER</h5>
-                    <p class="text-white  mt-5 para ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <p class="text-white  mt-5 para ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                         enim ad minim veniam, quis nostrud exercitation ullamco laboris
                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -158,7 +157,7 @@
                 <div class="col-sm-7 my-auto">
                     <h3 class="heading  text-start  ">Yash Mathur</h3>
                     <h5 class="small-heading  text-start  "> FOUNDER</h5>
-                    <p class="text-white  mt-5 para ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    <p class="text-white  mt-5 para ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                         enim ad minim veniam, quis nostrud exercitation ullamco laboris
                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -271,11 +270,13 @@
     </section>
 
 </body>
+
 <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+<script src="./assets/js/script.js"></script>
 
 </html>
