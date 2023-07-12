@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <script src="./assets/js/bootstrap.js"></script>
+    <link rel="shortcut icon" href="./assets/images/logo.png">
     <!--     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -20,24 +21,22 @@
 
 <body>
     <nav class="navbar navbar-expand-md text-white shadow-none">
-        <div class="container-fluid mob-container">
+        <div class="container-fluid mob-container" bis_skin_checked="1">
 
             <a class="d-md-none  logo-mob m-0 p-0 " href="./index.html">
                 <img src="./assets/images/logo.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
 
-                <div class="hamburger mt-3">
-                    <div class="bars1"></div>
-                    <div class="bars2"></div>
-                    <div class="bars3"></div>
+                <div class="hamburger mt-3" bis_skin_checked="1">
+                    <div class="bars1" bis_skin_checked="1"></div>
+                    <div class="bars2" bis_skin_checked="1"></div>
+                    <div class="bars3" bis_skin_checked="1"></div>
                 </div>
 
             </button>
 
-            <div class="collapse navbar-collapse mob-nav" id="navbarSupportedContent">
+            <div class="navbar-collapse mob-nav collapse show" id="navbarSupportedContent" bis_skin_checked="1" style="">
                 <ul class="pt-4 nav navbar-nav mx-auto  mb-lg-0 main-nav nav-line z-3">
                     <li class="nav-item active">
                         <a class="nav-link  " aria-current="page" href="./index.html">HOME</a>
@@ -50,24 +49,24 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">CONTACT</a>
+                        <a class="nav-link " aria-current="page" href="./Contactus.html">CONTACT</a>
                     </li>
                 </ul>
-                <div class="col-12 d-md-flex justify-content-between">
-                    <a class="navbar-brand m-0 col-md-2 d-md-block d-none" href="./index.html">
+               <div class="col-12 d-md-flex justify-content-between" bis_skin_checked="1">
+                    <a class="navbar-brand m-0 col-md-3 d-md-block d-none" href="./index.html">
                         <img src="./assets/images/logo.png" alt="">
                     </a>
-                    <div class="search-and-icons col-md-6  justify-content-sm-center justify-content-between ">
-                        <div class="col-md-3 col-6 ">
+                    <div class="search-and-icons col-md-6  justify-content-sm-center justify-content-between " bis_skin_checked="1">
+                        <div class="" bis_skin_checked="1">
                             <select class="form-select " aria-label="Default select example">
-                                <option selected>Category</option>
+                                <option selected="">Category</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
                         </div>
-                        <form class=" header-form col-md-7 col-6 ps-3 " role="search">
-                            <input class="form-control header-searcha" type="search" aria-label="Search">
+                        <form class="header-form col-md-7 col-6 " role="search">
+                            <input class="form-control header-searcha header-search" type="search" aria-label="Search">
                         </form>
                         <!-- <div class="user-icons d-flex mb-2">
                             <div class="profile"><i class="bi bi-person"></i></div>
@@ -75,33 +74,25 @@
                             <div class="cart"><i class="bi bi-cart3"></i></div>
                         </div> -->
                     </div>
-                    <div class="col-md-4 d-flex align-items-center justify-content-between mt-sm-0 mt-4 py-md-0 py-5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                            class="bi bi-search searchopen" viewBox="0 0 16 16">
-                            <path
-                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    <div class="col-md-3 d-flex align-items-center justify-content-between mt-sm-0 mt-4 py-md-0 py-5" bis_skin_checked="1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search searchopen" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
                         </svg>
 
-                        <div class="helpline d-flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                                class="bi bi-telephone-fill my-auto " viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                        <div class="helpline d-flex" bis_skin_checked="1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-telephone-fill my-auto " viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
                             </svg>
-                            <div class="ps-2">
+                            <div class="ps-2" bis_skin_checked="1">
                                 <p class="fw-bold mb-0 font-primary ">HELPLINE</p>
                                 <a href="tel:+971557881678" class="text-white font-secondary">+97155788 1678 </a>
                             </div>
                         </div>
-                        <div class="pe-3"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26"
-                                fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                        <div class="pe-3" bis_skin_checked="1"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"></path>
                             </svg>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
-                                class="bi bi-cart3" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
                             </svg>
                         </div>
                     </div>
@@ -259,7 +250,7 @@
                         <div class="text-md-center"> <img src="assets/images/footer.webp" alt=""></div>
 
                         <div class="social-icons-footer d-md-flex justify-content-center ps-sm-5 mt-3">
-                            <a href="#"><i class="fa-brands fa-instagram text-white fa-2x"></i></a>
+                            <a href="fluxxtuning"><i class="fa-brands fa-instagram text-white fa-2x"></i></a>
                             <a href="#"><i class="fa-brands fa-whatsapp text-white fa-2x"></i></a>
                             <a href="#"><i class="fa-brands fa-facebook text-white fa-2x"></i></a>
                             <a href="#"><i class="fa fa-pinterest text-white fa-2x"></i></a>
@@ -276,7 +267,7 @@
                         <a href="" class="d-block text-white text-decoration-none">Projects</a>
                         <a href="./product.html" class="d-block text-white text-decoration-none">Products</a>
                         <a href="" class="d-block text-white text-decoration-none">Gallery</a>
-                        <a href="" class="d-block text-white text-decoration-none">Contact</a>
+                        <a href="./Contactus.html" class="d-block text-white text-decoration-none">Contact</a>
 
                     </div>
                     <div class="col-md-6 col-sm-6  py-3 ">
